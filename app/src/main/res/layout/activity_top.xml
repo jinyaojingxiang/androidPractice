@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textColor="#ffffff"
-            android:text="注册"
+            android:text=""
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>

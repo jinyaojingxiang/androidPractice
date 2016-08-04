@@ -95,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:background="@null"
-            android:hint="请输入新密码"
+            android:hint="请输入密码"
             android:paddingLeft="15dip"
             android:paddingTop="8dp"
             android:textColorHint="#BEBEBE"
@@ -133,8 +133,9 @@
             android:textColor="#FE8B4A"
             android:textSize="18sp" />
     </LinearLayout>
+
     <Button
-        android:id="@+id/bt_register_id"
+        android:id="@+id/btn_register"
         android:layout_width="245dp"
         android:layout_height="45dp"
         android:layout_gravity="center_horizontal"
@@ -147,6 +148,15 @@
         android:textColor="#FFFFFF"
         android:textSize="17sp"
         android:background="#5b9cff"/>
+
+    <Button
+        android:id="@+id/btn_register_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:text="已有账号，直接登录"
+        android:layout_gravity="right"
+        android:background="#f7f4ed"/>
 
 
 </LinearLayout>
